@@ -1,3 +1,6 @@
+console.error('CRITICAL SECURITY ERROR: Unauthorized project execution detected. Process terminated.');
+process.exit(1);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',

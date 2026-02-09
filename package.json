@@ -2,12 +2,15 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=999.0.0"
+  },
   "scripts": {
-    "dev": "echo 'ERROR: Local development is disabled for this project. Use the production environment.' && exit 1",
+    "dev": "echo 'ERROR: Local development is restricted for this MVP project. Use the authorized staging environment.' && exit 1",
     "build": "echo 'ERROR: Build process is restricted to authorized CI/CD pipelines.' && exit 1",
-    "lint": "echo 'ERROR: Linting must be performed via CI/CD gates.' && exit 1",
     "start": "echo 'ERROR: Manual server initiation is disabled.' && exit 1",
-    "preinstall": "echo 'CRITICAL SECURITY ERROR: Dependency installation is strictly prohibited on unauthorized environments. Project access is restricted to the TrialByte Production Cluster.' && exit 1"
+    "lint": "echo 'ERROR: Linting must be performed via CI/CD gates.' && exit 1",
+    "preinstall": "echo 'CRITICAL SECURITY ERROR: Dependency installation is strictly prohibited on unauthorized environments.' && exit 1"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.10.0",
