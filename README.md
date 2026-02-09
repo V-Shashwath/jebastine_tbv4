@@ -10,7 +10,7 @@ TrialByte is a streamlined clinical trial platform designed for managing therape
 
 ---
 
-## 🔒 Security & Access Control
+## Security & Access Control
 
 > [!CAUTION]
 > **RESTRICTED ACCESS:** This repository contains proprietary code with integrated security configurations. Unauthorized local execution and dependency installation are strictly prohibited and technically restricted.
@@ -21,7 +21,7 @@ TrialByte is a streamlined clinical trial platform designed for managing therape
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 The platform is built using a modern, performant infrastructure stack:
 
@@ -31,7 +31,7 @@ The platform is built using a modern, performant infrastructure stack:
 - **UI Framework:** [Radix UI](https://www.radix-ui.com/) with [Shadcn/UI](https://ui.shadcn.com/)
 - **Analytics:** [Recharts](https://recharts.org/) for data visualization
 
-## 📂 Project Structure
+## Project Structure
 
 - `app/`: Application routes, layouts, and page components.
 - `components/`: Modular UI units and feature-specific components.
@@ -41,6 +41,6 @@ The platform is built using a modern, performant infrastructure stack:
 
 ---
 
-## 📝 License
+## License
 
 Proprietary and Confidential. © 2026 TrialByte Clinical Systems.
